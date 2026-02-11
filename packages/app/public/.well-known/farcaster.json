@@ -1,0 +1,17 @@
+{
+    "accountAssociation": {
+        "header": "eyJmaWQiOjk5OTksInR5cGUiOiJjdXN0b2RpYWwiLCJrZXkiOiIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0",
+        "payload": "eyJkb21haW4iOiIxOTIuMTY4LjEuMTE6NTE3MyJ9",
+        "signature": "MHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw"
+    },
+    "frame": {
+        "version": "1",
+        "name": "Hextris Base",
+        "iconUrl": "https://hextris.io/favicon.ico",
+        "homeUrl": "http://192.168.1.11:5173",
+        "imageUrl": "https://hextris.io/images/facebook-opengraph.png",
+        "buttonTitle": "Play Hextris",
+        "splashImageUrl": "https://hextris.io/images/facebook-opengraph.png",
+        "splashBackgroundColor": "#050510"
+    }
+}
