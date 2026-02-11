@@ -110,14 +110,14 @@ function AppContent() {
   const handleDonate = async () => {
     try {
       const hash = await sendTransactionAsync({
-        to: '0x5607139DFcC8b5F33118992A5E3fd4F8c530336c', // Live Sepolia Contract Address
+        to: '0xa8B7f0ca81F1538482962Ec933b3eb64a8cf054C', // Live Mainnet Contract Address
         value: parseEther('0.001'),
-        data: '0xed88c68e', // Simple 'donate()' function selector
+        data: '0xed88c68e', // 'donate()' function selector
       });
       if (hash) alert(`Thanks for donating! TX: ${hash}`);
     } catch (e) {
       console.error(e);
-      alert("Donation failed. Check if you are on the right network!");
+      alert("Donation failed. Check if you are on the right network (Base Mainnet)!");
     }
   };
 
