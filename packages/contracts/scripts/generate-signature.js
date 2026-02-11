@@ -37,17 +37,21 @@ async function main() {
     const signingInput = `${encodedHeader}.${encodedPayload}`;
 
     // For custody type, Farcaster expects an EIP-191 signature of the signingInput
-    const signature = await wallet.signMessage(signingInput);
+    const signatureHex = await wallet.signMessage(signingInput);
 
-    // The signature should be hex-encoded as per some docs, or base64url. 
-    // Standard JFS uses hex for the signature part if it's external, or specialized encoding.
-    // However, the Frames v2 manifest expects the JFS components.
+    // Convert hex signature to bytes then to base64url
+    const signatureBytes = ethers.getBytes(signatureHex);
+    const encodedSignature = Buffer.from(signatureBytes)
+        .toString('base64')
+        .replace(/\+/g, '-')
+        .replace(/\//g, '_')
+        .replace(/=/g, '');
 
     console.log("JFS Account Association Components:");
     console.log(JSON.stringify({
         header: encodedHeader,
         payload: encodedPayload,
-        signature: signature
+        signature: encodedSignature
     }, null, 2));
 }
 
