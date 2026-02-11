@@ -1,17 +1,17 @@
 {
     "accountAssociation": {
         "header": "eyJmaWQiOjIyMTUxNzEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg3NGY2NzYxNDRmRkY2ZjZiOEZmNTAzMDY5QjRDZkJlREZlOURFNDA0In0",
-        "payload": "eyJkb21haW4iOiJqdW1wLWJhc2UudmVyY2VsLmFwcCJ9",
-        "signature": "ZmkkA-rNRIIpKkPIWHg9U14FLMTUGIBTS15qdrLS0HsJj4hPFyhCbF4R56QX8X_VsOQa_5jGBJUpnQGDAEOrThs"
+        "payload": "eyJkb21haW4iOiJuZW9uLWp1bXAtYmFzZS05bHd3LnZlcmNlbC5hcHAifQ",
+        "signature": "OecDT_V9dHdzcciGnZY-qifuuYao7UQrrnQpb_EoxYlsyJnbRzEAua0poubwqBpnBevTv8vci9615LcuZmrNcRs"
     },
     "frame": {
         "version": "1",
         "name": "Hextris Base",
-        "iconUrl": "https://jump-base.vercel.app/favicon.ico",
-        "homeUrl": "https://jump-base.vercel.app",
-        "imageUrl": "https://jump-base.vercel.app/hextris/images/facebook-opengraph.png",
+        "iconUrl": "https://neon-jump-base-9lww.vercel.app/favicon.ico",
+        "homeUrl": "https://neon-jump-base-9lww.vercel.app",
+        "imageUrl": "https://neon-jump-base-9lww.vercel.app/hextris/images/facebook-opengraph.png",
         "buttonTitle": "Play Hextris",
-        "splashImageUrl": "https://jump-base.vercel.app/hextris/images/facebook-opengraph.png",
+        "splashImageUrl": "https://neon-jump-base-9lww.vercel.app/hextris/images/facebook-opengraph.png",
         "splashBackgroundColor": "#050510"
     }
 }

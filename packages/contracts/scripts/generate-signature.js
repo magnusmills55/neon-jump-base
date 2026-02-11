@@ -19,7 +19,7 @@ async function main() {
 
     const wallet = new ethers.Wallet(privateKey);
     const fid = 2215171;
-    const domain = "jump-base.vercel.app";
+    const domain = "neon-jump-base-9lww.vercel.app";
 
     const header = {
         fid: fid,
